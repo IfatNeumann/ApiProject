@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="doggy.png">
+    <title>Working With API</title>
+</head>
+<body>
+    <div class="center">
+        <div class="row">
+                <div class="column2" style="width: 60%;">
+                    <h1 style="float: right;">Show a Doggy!</h1>
+                </div>
+                <div class="column2" style="width: 40%;">
+                    <img style="height: 100px; float: left; margin: 47px 47px 0px 47px;" src="doggies.png">
+                </div>
+        </div>
+        <p style="font-size: 25px;">
+            This website will show a picture of a new doggy 
+            every second / 5 seconds / on click</p>
+        <img id="doggyImg" style="height: 400px;" onclick="updateInterval()">
+    </div>
+    <div>
+        <h1 style="font-size: 45px;">Want To See Another Doggy? :D</h1>
+    </div>
+    <div>
+        <button class="button-36" role="button" onclick="updateInterval(1000)">Every Second</button>
+        <button class="button-36" role="button" onclick="updateInterval(5000)">Every 5 Seconds</button>
+        <button class="button-36" role="button" onclick="updateInterval()">Manual On Click</button>
+    </div>
+</body>
+</html>

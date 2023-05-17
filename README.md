@@ -6,3 +6,5 @@ In this demo (https://fetch-img-api.netlify.app/), I am showing a picture of a d
 API url options (found through [this website](https://www.twilio.com/blog/cool-apis)):
 1. [The Dog API](https://thedogapi.com/): head on over to https://api.thedogapi.com/v1/images/search in your browser to see the json received
 1. [affirmations.dev](https://www.affirmations.dev/): head on over to https://www.affirmations.dev/ in your browser to see the json received
+
+testing split of branches also change
